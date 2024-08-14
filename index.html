@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css//bootstrap.css">
+   <link rel="stylesheet" href="./learner.css">
+
+</head>
+<body>
+   <div class="container">
+    <!-- Requirement-6  -->
+
+    <nav class="navbar navbar-expand-xl navbar-light bg-light">
+        <div class="container-fluid">
+          <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarBasic" aria-controls="navbarBasic" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse show" id="navbarBasic">
+            <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Profile</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Resources</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Others</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+     <!-- Requirement-2  -->
+     <div class="buttons">
+        <button type="button" class="btn btn-primary">Primary Button</button>
+        <button type="button" class="btn btn-secondary">Secondary Button</button>
+        <button type="button" class="btn btn-success">Success Button</button>
+        <button type="button" class="btn btn-danger">Danger Button</button>
+        <button type="button" class="btn btn-warning">Warning Button</button>
+        <button type="button" class="btn btn-info">Info Button</button>
+        <button type="button" class="btn btn-light">Light Button</button>
+        <button type="button" class="btn btn-dark">Dark Button</button>
+        <button type="button" class="btn btn-outline-primary">Outline Button</button>
+        <button type="button" class="btn btn-link">Link Button</button>
+        
+    </div>
+    
+    <!-- Requirement-3  -->
+    <div class="card">
+        <div class="card" style="width: 18rem;">
+            <img src="./images/card-image.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fs-1">My Card</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed pariatur est nam eveniet ullam suscipit atque cumque rem ducimus rerum!</p>
+              <a href="#" class="btn btn-primary">Click me!</a>
+            </div>
+          </div>
+    </div>
+
+    <!-- Requirement-4  -->
+    <div class="mt-5">
+        <h2 class="fs-3 mb-3 font-bold">Registration Form</h2>
+        <form>
+            <!-- Name field -->
+            <div class="form-group mb-3 w-25">
+                <label for="name">Full Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your full name">
+            </div>
+
+            <!-- Father's name field  -->
+            <div class="form-group mb-3 w-25">
+                <label for="name">Father's Name</label>
+                <input type="text" class="form-control" id="fathers-name" placeholder="Enter your father's name">
+            </div>
+
+            <!-- Mother's name field  -->
+            <div class="form-group mb-3 w-25">
+                <label for="name">Mother's Name</label>
+                <input type="text" class="form-control" id="mothers-name" placeholder="Enter your mother's name">
+            </div>
+
+            <!-- Email field -->
+            <div class="form-group mb-3 w-25">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+
+            <!-- Phone number field -->
+            <div class="form-group mb-3 w-25">
+                <label for="phone">Email address</label>
+                <input type="number" min="0" class="form-control" id="phone" placeholder="Enter your phone number">
+            </div>
+
+            <!-- Nationality field  -->
+            <div class="form-group mb-3 w-25">
+                <label for="name">Nationality</label>
+                <input type="text" class="form-control" id="mothers-name" placeholder="Enter your nationality">
+            </div>
+
+            <!-- Password field -->
+            <div class="form-group mb-3 w-25">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" placeholder="Enter your password">
+            </div>
+
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+    <!-- Login form  -->
+    <div class=" mt-5">
+        <h2 class="fs-3 mb-3 font-bold">Login Form</h2>
+        <form>
+            <!-- Name field -->
+            <div class="form-group mb-3 w-25">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name">
+            </div>
+
+            <!-- Email field -->
+            <div class="form-group mb-3 w-25">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+
+            <!-- Password field -->
+            <div class="form-group mb-3 w-25">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" placeholder="Enter your password">
+            </div>
+
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+    <!-- Contact form  -->
+    <div class=" mt-5">
+        <h2 class="fs-3 mb-3 font-bold">Contact Us Form</h2>
+        <form>
+            <!-- Name field -->
+            <div class="form-group mb-3 w-25">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name">
+            </div>
+
+            <!-- Email field -->
+            <div class="form-group mb-3 w-25">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+
+            <!-- Message field -->
+            <div class="form-group mb-3 w-25">
+                <label for="message">What you wanna say?</label>
+                <textarea class="form-control" id="message" placeholder="Enter your message" rows="3"></textarea>
+            </div>
+            
+
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+    <!-- Requirement-7  -->
+    <div class="progress mt-2">
+        <div class="progress-bar bg-secondary progress-bar-striped progress-bar-animated" role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+
+
+    <!-- Requirement-5  -->
+    <div class="list-items">
+        <h2 class="fs-3 mb-3 font-bold mt-5">My Hobbies</h2>
+        <ul class="list-group ">
+            <li class="list-group-item w-50">Cricket</li>
+            <li class="list-group-item w-50">Football</li>
+            <li class="list-group-item w-50">Badminton</li>
+            <li class="list-group-item w-50">Cycling</li>
+        </ul>
+    </div>
+
+       <!-- Requirement-9  -->
+      <h2 class="fs-3 font-bold my-2">School Details</h2>
+      <table class="table">
+        <thead> 
+        <tr>
+            <th scope="col">Class</th>
+            <th scope="col">Male</th>
+            <th scope="col">Female</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th scope="row">01</th>
+            <td>20</td>
+            <td>10</td>
+        </tr>
+        <tr class="table-primary">
+            <th scope="row">02</th>
+            <td>20</td>
+            <td>30</td>
+        </tr>
+        <tr class="table-secondary">
+            <th scope="row">03</th>
+            <td>30</td>
+            <td>40</td>
+        </tr>
+        <tr class="table-success">
+            <th scope="row">04</th>
+            <td>15</td>
+            <td>20</td>
+        </tr>
+        <tr class="table-danger">
+            <th scope="row">05</th>
+            <td>50</td>
+            <td>37</td>
+        </tr>
+        <tr class="table-warning">
+            <th scope="row">06</th>
+            <td>25</td>
+            <td>20</td>
+        </tr>
+        <tr class="table-info">
+            <th scope="row">07</th>
+            <td>30</td>
+            <td>27</td>
+        </tr>
+        <tr class="table-light">
+            <th scope="row">08</th>
+            <td>23</td>
+            <td>20</td>
+        </tr>
+        <tr class="table-dark">
+            <th scope="row">09</th>
+            <td>20</td>
+            <td>22</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <!-- Requirement-10  -->
+    <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuDark" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+            Dropdown Menu Dark
+        </button>
+        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuDark">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+    </div>
+    
+
+    <!-- Requirement-8  -->
+    <div class="mt-5">
+        <nav>
+         <ul class="pagination">
+             <li class="page-item"><a href="#" class="page-link">Prev</a></li>
+             <li class="page-item"><a href="#" class="page-link">1</a></li>
+             <li class="page-item"><a href="#" class="page-link">2</a></li>
+             <li class="page-item active"><a href="#" class="page-link">3</a></li>
+             <li class="page-item"><a href="#" class="page-link">4</a></li>
+             <li class="page-item"><a href="#" class="page-link">Next</a></li>
+         </ul>
+        </nav>
+     </div>
+
+  
+
+   </div>
+    <script src="./js/bootstrap.bundle.js"></script>
+</body>
+</html>
